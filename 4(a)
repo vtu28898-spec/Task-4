@@ -1,0 +1,32 @@
+numbers = []
+
+# 1. Add Elements
+numbers.append(10)
+numbers.append(5)
+numbers.append(20)
+numbers.append(15)
+numbers.append(30)
+print("List after adding elements:", numbers)
+
+# 2. Remove Elements
+numbers.remove(20)  # Remove element 20
+print("List after removing 20:", numbers)
+
+# 3. Sort Elements
+numbers.sort()
+print("List sorted in ascending order:", numbers)
+
+numbers.sort(reverse=True)
+print("List sorted in descending order:", numbers)
+
+# 4. Find Minimum and Maximum
+min_value = min(numbers)
+max_value = max(numbers)
+print("Minimum element:", min_value)
+print("Maximum element:", max_value)
+
+# 5. Calculate Sum and Average
+total = sum(numbers)
+average = total / len(numbers)
+print("Sum of elements:", total)
+print("Average of elements:", average)
